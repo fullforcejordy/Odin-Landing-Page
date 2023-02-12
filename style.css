@@ -1,0 +1,11 @@
+.header-container {
+  background-color: #1f2937;
+  height: 300px;
+  display: flex;
+  color: #f9faf8;
+}
+
+#header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
