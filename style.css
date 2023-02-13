@@ -1,11 +1,36 @@
+.full-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
 .header-container {
   background-color: #1f2937;
   height: 300px;
   display: flex;
+  flex-direction: column;
+  color: #f9faf8;
+  padding: 0px 150px 0px 150px;
+  flex: 1;
+}
+
+.header-logo {
+  font-size: 24px;
   color: #f9faf8;
 }
 
-#header-logo {
-  font-size: 24px;
+.header-top-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
   color: #f9faf8;
 }
