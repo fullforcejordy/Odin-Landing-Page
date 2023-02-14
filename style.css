@@ -34,3 +34,21 @@ a {
   text-decoration: none;
   color: #f9faf8;
 }
+
+.header-intro {
+  display: flex;
+}
+
+.header-int-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.placeholder-image {
+  background-color: darkgray;
+  margin-left: 100px;
+}
+
+button {
+  background-color: #3882f6;
+}
