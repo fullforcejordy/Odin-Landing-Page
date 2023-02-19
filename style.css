@@ -1,5 +1,7 @@
 body {
-  padding: 0px 90px 0px 90px;
+  /*To remove the white border around the webpage which firefox adds*/
+  margin: 0;
+  padding: 0;
 }
 
 .top-header-container {
@@ -10,8 +12,10 @@ body {
 }
 
 .top-links {
+  display: flex;
   list-style: none;
   text-decoration: none;
+  gap: 20px;
 }
 
 a {
@@ -22,4 +26,9 @@ a {
 
 li {
   display: inline;
+}
+
+.header {
+  height: 400px;
+  background-color: #1f2937;
 }
