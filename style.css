@@ -1,0 +1,25 @@
+body {
+  padding: 0px 90px 0px 90px;
+}
+
+.top-header-container {
+  display: flex;
+  justify-content: space-between;
+  color: #f9faf8; /*for header logo text only*/
+  font-size: 24px; /*for header logo text only*/
+}
+
+.top-links {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+}
