@@ -7,8 +7,12 @@ body {
 .top-header-container {
   display: flex;
   justify-content: space-between;
+}
+
+.header-logo {
   color: #f9faf8; /*for header logo text only*/
   font-size: 24px; /*for header logo text only*/
+  font-weight: bold; /*for header logo text only*/
 }
 
 .top-links {
