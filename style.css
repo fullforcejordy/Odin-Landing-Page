@@ -57,8 +57,6 @@ li {
 
 .header-content {
   display: flex;
-  border-color: white;
-  border-width: 10px;
   gap: 50px;
 }
 
