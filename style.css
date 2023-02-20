@@ -43,19 +43,23 @@ li {
   color: #f9faf8;
   font-size: 48px;
   font-weight: bolder;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.awesome-paragraph {
+  margin-top: -20px;
+}
+.awesome-signup {
+  max-width: 50%;
+  color: #e5e7eb;
+  flex: 1;
 }
 
 .header-content {
   display: flex;
   border-color: white;
   border-width: 10px;
-}
-
-.awesome-signup {
-  max-width: 50%;
-  margin-top: -10px;
-  color: #e5e7eb;
+  gap: 50px;
 }
 
 .placeholder-image {
@@ -65,4 +69,12 @@ li {
   align-items: center;
   background-color: gray;
   flex: 1;
+}
+
+.signup-button {
+  color: white;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 10%;
+  padding: 10px 30px 10px 30px;
 }
