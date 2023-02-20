@@ -7,6 +7,7 @@ body {
 .top-header-container {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .header-logo {
@@ -35,4 +36,33 @@ li {
 .header {
   height: 400px;
   background-color: #1f2937;
+  padding: 0px 90px 0px 90px;
+}
+
+.this-website-is-awesome {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.header-content {
+  display: flex;
+  border-color: white;
+  border-width: 10px;
+}
+
+.awesome-signup {
+  max-width: 50%;
+  margin-top: -10px;
+  color: #e5e7eb;
+}
+
+.placeholder-image {
+  display: flex;
+  color: #e5e7eb;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  flex: 1;
 }
