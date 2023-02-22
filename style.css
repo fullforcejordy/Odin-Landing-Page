@@ -76,3 +76,9 @@ li {
   border-radius: 5px;
   padding: 5px 30px 5px 30px;
 }
+
+.info-header-text {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
