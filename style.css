@@ -77,8 +77,33 @@ li {
   padding: 5px 30px 5px 30px;
 }
 
-.info-header-text {
+#info-header-text {
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
+  padding: 30px 90px 0px 90px;
+  text-align: center;
+}
+
+.img-box {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #3882f6;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+.info-content-container {
+  display: flex;
+  padding: 0px 90px 0px 90px;
+  gap: 10px;
+}
+
+.random-info-images {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
 }
