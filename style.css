@@ -114,3 +114,17 @@ li {
   justify-content: center;
   align-items: center;
 }
+
+.inspiring-quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 0px 90px 0px 90px;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+#thor-quote {
+  align-self: flex-end;
+}
