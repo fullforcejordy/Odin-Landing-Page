@@ -129,3 +129,10 @@ li {
   align-self: flex-end;
   font-style: none;
 }
+
+.call-to-action {
+  background-color: #3882f6;
+  color: white;
+  display: flex;
+  flex: 1;
+}
